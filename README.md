@@ -1,66 +1,87 @@
-<p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400" alt="Laravel Logo"></a></p>
+# AcademicReach
 
-<p align="center">
-<a href="https://github.com/laravel/framework/actions"><img src="https://github.com/laravel/framework/workflows/tests/badge.svg" alt="Build Status"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/dt/laravel/framework" alt="Total Downloads"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/v/laravel/framework" alt="Latest Stable Version"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/l/laravel/framework" alt="License"></a>
-</p>
+**Automated outreach tool for teachers and academics.**  
+Input your expertise and goals → get a lead magnet, a prospect list, and personalized emails — all generated and sent automatically.
 
-## About Laravel
+---
 
-Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable and creative experience to be truly fulfilling. Laravel takes the pain out of development by easing common tasks used in many web projects, such as:
+## What It Does
 
-- [Simple, fast routing engine](https://laravel.com/docs/routing).
-- [Powerful dependency injection container](https://laravel.com/docs/container).
-- Multiple back-ends for [session](https://laravel.com/docs/session) and [cache](https://laravel.com/docs/cache) storage.
-- Expressive, intuitive [database ORM](https://laravel.com/docs/eloquent).
-- Database agnostic [schema migrations](https://laravel.com/docs/migrations).
-- [Robust background job processing](https://laravel.com/docs/queues).
-- [Real-time event broadcasting](https://laravel.com/docs/broadcasting).
+AcademicReach helps educators and academics grow their audience and sell their services without spending hours on manual outreach. You set it up once, and the tool handles the rest.
 
-Laravel is accessible, powerful, and provides tools required for large, robust applications.
+---
 
-## Learning Laravel
+## How It Works
 
-Laravel has the most extensive and thorough [documentation](https://laravel.com/docs) and video tutorial library of all modern web application frameworks, making it a breeze to get started with the framework.
+### 1. You Provide (One-Time Setup)
+- Your name, title, and institution
+- Subject area / niche (e.g. "high school chemistry", "corporate leadership training")
+- Your goal: sell a course / find speaking gigs / promote a workshop / build a mailing list
+- Target audience: teachers, school admins, university departments, EdTech companies, etc.
+- Tone preference: formal / friendly / academic
+- Your offer: what you're promoting (paid course, free webinar, consulting, curriculum package)
 
-You may also try the [Laravel Bootcamp](https://bootcamp.laravel.com), where you will be guided through building a modern Laravel application from scratch.
+**Optional:**
+- Existing bio or CV (upload)
+- Preferred email provider (Gmail, Outlook)
+- Budget or geographic targeting
 
-If you don't feel like reading, [Laracasts](https://laracasts.com) can help. Laracasts contains thousands of video tutorials on a range of topics including Laravel, modern PHP, unit testing, and JavaScript. Boost your skills by digging into our comprehensive video library.
+---
 
-## Laravel Sponsors
+### 2. You Get
 
-We would like to extend our thanks to the following sponsors for funding Laravel development. If you are interested in becoming a sponsor, please visit the [Laravel Partners program](https://partners.laravel.com).
+#### 📄 Lead Magnet
+A polished, downloadable asset tailored to your niche — auto-generated and ready to attach or link in emails.  
+Examples: *"5 Classroom Strategies for Teaching Critical Thinking"*, mini-lesson templates, rubric packs, checklists.  
+Formats: PDF or Google Doc.
 
-### Premium Partners
+#### 📋 Prospect List
+A list of 20–100 relevant contacts sourced from public directories.  
+Each contact includes: Name, Title, Institution, Email (verified), LinkedIn URL.  
+Sources: school/university websites, conference speaker lists, LinkedIn, education association directories.
 
-- **[Vehikl](https://vehikl.com/)**
-- **[Tighten Co.](https://tighten.co)**
-- **[WebReinvent](https://webreinvent.com/)**
-- **[Kirschbaum Development Group](https://kirschbaumdevelopment.com)**
-- **[64 Robots](https://64robots.com)**
-- **[Curotec](https://www.curotec.com/services/technologies/laravel/)**
-- **[Cyber-Duck](https://cyber-duck.co.uk)**
-- **[DevSquad](https://devsquad.com/hire-laravel-developers)**
-- **[Jump24](https://jump24.co.uk)**
-- **[Redberry](https://redberry.international/laravel/)**
-- **[Active Logic](https://activelogic.com)**
-- **[byte5](https://byte5.de)**
-- **[OP.GG](https://op.gg)**
+#### ✉️ Personalized Outreach Emails
+One unique email per contact, auto-personalized with:
+- Their name, institution, and role
+- A relevant hook (e.g. referencing their subject area or recent work)
+- Your offer + lead magnet link
+- A clear call to action (book a call / download the resource / reply to learn more)
 
-## Contributing
+**Sequence option:** Intro email → Follow-up 1 (Day 5) → Follow-up 2 (Day 10)
 
-Thank you for considering contributing to the Laravel framework! The contribution guide can be found in the [Laravel documentation](https://laravel.com/docs/contributions).
+---
 
-## Code of Conduct
+## Tech Stack
 
-In order to ensure that the Laravel community is welcoming to all, please review and abide by the [Code of Conduct](https://laravel.com/docs/contributions#code-of-conduct).
+> *(Update this section with your actual stack as you build)*
 
-## Security Vulnerabilities
+- **Frontend:** -
+- **Backend:** -
+- **Database:** -
+- **Email Integration:** Gmail / Outlook API
+- **AI:** -
 
-If you discover a security vulnerability within Laravel, please send an e-mail to Taylor Otwell via [taylor@laravel.com](mailto:taylor@laravel.com). All security vulnerabilities will be promptly addressed.
+---
 
-## License
+## Getting Started
 
-The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
+```bash
+git clone https://github.com/LiannaAsatryan/AcademicReach.git
+cd AcademicReach
+npm install
+cp .env.example .env
+npm run dev
+```
+
+---
+
+## Status
+
+🚧 Currently in early development.
+
+---
+
+## Author
+
+**Lianna Asatryan**  
+[GitHub](https://github.com/LiannaAsatryan)
