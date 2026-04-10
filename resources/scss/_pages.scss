@@ -1,0 +1,33 @@
+@use "variables" as *;
+
+.wizard {
+    display: grid;
+    gap: $space-4;
+}
+
+.wizard-steps {
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+}
+
+.wizard-step {
+    padding: 8px 10px;
+    border-radius: $radius-md;
+    border: 1px solid $color-border;
+    background: rgba(255, 255, 255, 0.04);
+    color: $color-muted;
+
+    &.active {
+        color: $color-text;
+        border-color: rgba(110, 231, 255, 0.25);
+        background: rgba(110, 231, 255, 0.08);
+    }
+
+    &.done {
+        color: $color-text;
+        border-color: rgba(167, 139, 250, 0.26);
+        background: rgba(167, 139, 250, 0.10);
+    }
+}
+

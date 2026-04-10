@@ -1,0 +1,25 @@
+@use "variables";
+@use "layout";
+@use "components";
+@use "pages";
+
+* {
+    box-sizing: border-box;
+}
+
+html,
+body {
+    height: 100%;
+}
+
+body {
+    margin: 0;
+    background: $color-bg;
+    color: $color-text;
+    font-family: $font-sans;
+}
+
+a {
+    color: inherit;
+}
+
