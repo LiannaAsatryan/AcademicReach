@@ -51,18 +51,6 @@ One unique email per contact, auto-personalized with:
 
 ---
 
-## Tech Stack
-
-> *(Update this section with your actual stack as you build)*
-
-- **Frontend:** -
-- **Backend:** -
-- **Database:** -
-- **Email Integration:** Gmail / Outlook API
-- **AI:** -
-
----
-
 ## Getting Started
 
 ```bash
